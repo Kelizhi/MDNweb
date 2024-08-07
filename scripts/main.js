@@ -2,13 +2,10 @@ let myImage = document.querySelector("img");
 
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute("src");
-  console.log("Current image source:", mySrc);
   if (mySrc === "images/白豚紫色.jpg") {
     myImage.setAttribute("src", "images/蓝白豚-圆.png");
-    console.log("Changed to 蓝白豚-圆.png");
   } else {
     myImage.setAttribute("src", "images/白豚紫色.jpg");
-    console.log("Changed to 白豚紫色.jpg");
   }
 };
 
