@@ -23,7 +23,8 @@ if (!localStorage.getItem("name")) {
     console.log("main.js is loaded");
   } else {
     let storedName = localStorage.getItem("name");
-    /*myHeading.textContent = "Mozilla 酷毙了，" + storedName;*/
+    myHeading.textContent = "Mozilla 酷毙了，" + storedName;
+  
 }
 
 myButton.onclick = function () {
